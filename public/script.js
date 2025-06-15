@@ -1,8 +1,8 @@
-
 // Kinyarwanda Translator JavaScript Code
 class KinyarwandaTranslator {
     constructor() {
-        this.apiBase = 'http://localhost:3000';
+        // this.apiBase = 'http://localhost:3000';
+        this.apiBase = 'https://kinyarwanda-translator-api.onrender.com'; // Use the deployed API URL
         this.initializeElements();
         this.attachEventListeners();
         this.checkApiStatus();
