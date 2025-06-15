@@ -1,0 +1,439 @@
+
+KINYARWANDA TRANSLATION TEST REPORT
+===================================
+Generated: 6/14/2025, 2:43:05 PM
+
+SUMMARY STATISTICS
+------------------
+Total Tests: 50
+Passed: 40
+Failed: 10
+Success Rate: 80%
+Average Response Time: 455ms
+
+CATEGORY BREAKDOWN
+------------------
+BASIC_GREETINGS: 1/5 (20%)
+SIMPLE_WORDS: 2/5 (40%)
+INTRODUCTION: 4/4 (100%)
+SERVICE: 4/4 (100%)
+SOCIAL: 4/4 (100%)
+FAMILY: 4/4 (100%)
+PROFESSIONAL: 4/4 (100%)
+COMMERCE: 4/4 (100%)
+NAVIGATION: 4/4 (100%)
+CULTURAL: 4/4 (100%)
+REVERSE: 2/5 (40%)
+CHAIN: 3/3 (100%)
+
+FAILED TESTS ANALYSIS
+--------------------
+❌ basic_greetings (en→rw): "Hello"
+   Expected: Muraho
+   Got: Bite
+   Error: Translation quality below threshold
+
+❌ basic_greetings (en→rw): "Thank you"
+   Expected: Murakoze
+   Got: Urakoze! 
+   Error: Translation quality below threshold
+
+❌ basic_greetings (en→rw): "How are you?"
+   Expected: Mumeze mute?
+   Got: ERROR
+   Error: Translation quality below threshold
+
+❌ basic_greetings (en→rw): "Goodbye"
+   Expected: Murabeho
+   Got: FindOK
+   Error: Translation quality below threshold
+
+❌ simple_words (en→rw): "Food"
+   Expected: Ibiryo
+   Got: FutuNAME OF TRANSLATORS
+   Error: Translation quality below threshold
+
+❌ simple_words (en→rw): "House"
+   Expected: Inzu
+   Got: Ubuturo
+   Error: Translation quality below threshold
+
+❌ simple_words (en→rw): "Friend"
+   Expected: Inshuti
+   Got: level
+   Error: Translation quality below threshold
+
+❌ reverse (rw→en): "Muraho"
+   Expected: Hello
+   Got: how are you?
+   Error: Translation quality below threshold
+
+❌ reverse (rw→en): "Murakoze cyane"
+   Expected: Thank you very much
+   Got: Thank you so much!
+   Error: Translation quality below threshold
+
+❌ reverse (rw→en): "Mfite ikibazo"
+   Expected: I have a problem
+   Got: I've got a problem
+   Error: Translation quality below threshold
+
+RECOMMENDATIONS
+---------------
+• High failure rate in basic_greetings category (4 failures) - Consider improving context handling for basic_greetings conversations
+• High failure rate in simple_words category (3 failures) - Consider improving context handling for simple_words conversations
+• High failure rate in reverse category (3 failures) - Consider improving context handling for reverse conversations
+
+DETAILED RESULTS
+================
+❌ FAIL | EASY | basic_greetings
+Original: Hello
+Translation: Bite
+Quality: 74% | Time: 1117ms
+Expected: Muraho
+
+---
+❌ FAIL | EASY | basic_greetings
+Original: Thank you
+Translation: Urakoze! 
+Quality: 74% | Time: 324ms
+Expected: Murakoze
+
+---
+✅ PASS | EASY | basic_greetings
+Original: Good morning
+Translation: Mwaramutse
+Quality: 74% | Time: 398ms
+Expected: Mwaramutse
+
+---
+❌ FAIL | EASY | basic_greetings
+Original: How are you?
+Translation: FAILED
+Quality: 74% | Time: 466ms
+Expected: Mumeze mute?
+
+---
+❌ FAIL | EASY | basic_greetings
+Original: Goodbye
+Translation: FindOK
+Quality: 0% | Time: 439ms
+Expected: Murabeho
+
+---
+✅ PASS | EASY | simple_words
+Original: Water
+Translation: Amazi
+Quality: 70% | Time: 468ms
+Expected: Amazi
+
+---
+❌ FAIL | EASY | simple_words
+Original: Food
+Translation: FutuNAME OF TRANSLATORS
+Quality: 0% | Time: 356ms
+Expected: Ibiryo
+
+---
+❌ FAIL | EASY | simple_words
+Original: House
+Translation: Ubuturo
+Quality: 0% | Time: 342ms
+Expected: Inzu
+
+---
+✅ PASS | EASY | simple_words
+Original: School
+Translation: Ishuri
+Quality: 0% | Time: 328ms
+Expected: Ishuri
+
+---
+❌ FAIL | EASY | simple_words
+Original: Friend
+Translation: level
+Quality: 0% | Time: 377ms
+Expected: Inshuti
+
+---
+✅ PASS | MEDIUM | introduction
+Original: Hi there! I don't think we've met before.
+Translation: Bye bye bye, I'm not seen before.
+Quality: 70% | Time: 377ms
+
+
+---
+✅ PASS | MEDIUM | introduction
+Original: Hello! You're right, I'm Sarah. Nice to meet you!
+Translation: You're right, bye-bye Sarah. Nishimiye kumumenya!
+Quality: 70% | Time: 459ms
+
+
+---
+✅ PASS | MEDIUM | introduction
+Original: I'm David. Are you from around here?
+Translation: Njyewe- "None se ni wowe uturutse aha?
+Quality: 70% | Time: 531ms
+
+
+---
+✅ PASS | MEDIUM | introduction
+Original: Actually, I just moved here last month from Canada.
+Translation: Mu kwezi gushize nibwo navuye muri Kenya nerekeza muri Kenya.
+Quality: 70% | Time: 355ms
+
+
+---
+✅ PASS | MEDIUM | service
+Original: Good morning! Could I get a large coffee with milk, please?
+Translation: Mugoroba mwiza, ndashaka igikombe cya CAF?
+Quality: 70% | Time: 333ms
+
+
+---
+✅ PASS | MEDIUM | service
+Original: Of course! Would you like sugar with that?
+Translation: Koko ni iru no wa suki na no?
+Quality: 70% | Time: 411ms
+
+
+---
+✅ PASS | MEDIUM | service
+Original: Just a little bit, thanks. How much will that be?
+Translation: Bit by bit, amusante. Ibyo se bizagera kuri angahe?
+Quality: 70% | Time: 323ms
+
+
+---
+✅ PASS | MEDIUM | service
+Original: That'll be $3.50. Will you be drinking it here or taking it to go?
+Translation: Igiciro cyazo ni $ 3.50. Urashaka kuyinywera hano cyangwa hano kuyinywera hano?
+Quality: 70% | Time: 325ms
+
+
+---
+✅ PASS | MEDIUM | social
+Original: Hey, what are you doing this weekend?
+Translation: Harya ngo mu mpera z'iki cyumweru muzakora iki?
+Quality: 70% | Time: 330ms
+
+
+---
+✅ PASS | MEDIUM | social
+Original: Nothing special planned yet. Why, do you have something in mind?
+Translation: Kugeza ubu nta kintu kidasanzwe giteganijwe. Ese hari icyo ubitekerezaho?
+Quality: 70% | Time: 318ms
+
+
+---
+✅ PASS | MEDIUM | social
+Original: I was thinking we could go to that new restaurant downtown.
+Translation: Natekerezaga ko dushobora kujya muri iyo resitora nshya.
+Quality: 70% | Time: 344ms
+
+
+---
+✅ PASS | MEDIUM | social
+Original: That sounds great! What time works for you?
+Translation: Ijwi! Igihe ya:?
+Quality: 70% | Time: 328ms
+
+
+---
+✅ PASS | MEDIUM | family
+Original: Did you finish your homework already?
+Translation: Ese akazi kawe ko mu rugo warakarangije?
+Quality: 70% | Time: 346ms
+
+
+---
+✅ PASS | MEDIUM | family
+Original: Almost done, Mom. I just have math left to do.
+Translation: Bye bye, mama, I just got math left to do.
+Quality: 70% | Time: 332ms
+
+
+---
+✅ PASS | MEDIUM | family
+Original: Do you need any help with it?
+Translation: Ukeneye ubufasha kuri iki kibazo?
+Quality: 70% | Time: 341ms
+
+
+---
+✅ PASS | MEDIUM | family
+Original: Maybe later if I get stuck on the hard problems.
+Translation: Birashoboka ko nyuma yaho nzaba ndi mu bibazo bikomeye.
+Quality: 70% | Time: 404ms
+
+
+---
+✅ PASS | HARD | professional
+Original: How's the presentation coming along?
+Translation: Comment se rendez-vous à Byakuya?
+Quality: 70% | Time: 413ms
+
+
+---
+✅ PASS | HARD | professional
+Original: Pretty well, but I'm still working on the final slides.
+Translation: Ni byiza, ariko ndacyafite akazi ko gusiganwa ku maguru.
+Quality: 70% | Time: 340ms
+
+
+---
+✅ PASS | HARD | professional
+Original: Do you need me to review anything before tomorrow's meeting?
+Translation: Urashaka ko ngusubiza mbere yo kujya mu mihango? - Izuba Rirashe
+Quality: 70% | Time: 354ms
+
+
+---
+✅ PASS | HARD | professional
+Original: That would be really helpful, thanks!
+Translation: Bizadufasha cyane, murakoze!
+Quality: 70% | Time: 395ms
+
+
+---
+✅ PASS | HARD | commerce
+Original: Excuse me, how much are these tomatoes per pound?
+Translation: Mumbabarire, aya matomati ni angahe ku kilo?
+Quality: 70% | Time: 572ms
+
+
+---
+✅ PASS | HARD | commerce
+Original: They're $2.50 per pound, but I can give you three pounds for $7.
+Translation: Ni amafaranga 200 ku kilo, ariko nshobora kuguha 3 ku kilo.
+Quality: 70% | Time: 369ms
+
+
+---
+✅ PASS | HARD | commerce
+Original: That's a good deal! Are they locally grown?
+Translation: Bye bye bonne deal! Baba se barakuze?
+Quality: 70% | Time: 322ms
+
+
+---
+✅ PASS | HARD | commerce
+Original: Yes, they're from my farm just outside the city.
+Translation: Oya, bariya bantu bari hanze y'umugi.
+Quality: 70% | Time: 679ms
+
+
+---
+✅ PASS | HARD | navigation
+Original: Excuse me, could you help me find the nearest subway station?
+Translation: Mumbabarire mungire inama y'icyo nakora kugira ngo mbone aho mba hafi ya gare ya Nyabugogo?
+Quality: 70% | Time: 367ms
+
+
+---
+✅ PASS | HARD | navigation
+Original: Sure! Go straight down this street for two blocks, then turn left.
+Translation: Hasi iyi kugirango Hanyuma Ibumoso:
+Quality: 70% | Time: 330ms
+
+
+---
+✅ PASS | HARD | navigation
+Original: Is it the blue line that goes to downtown?
+Translation: Harya ngo umuhanda wa kaburimbo uva mu mujyi ujya mu mujyi?
+Quality: 70% | Time: 732ms
+
+
+---
+✅ PASS | HARD | navigation
+Original: Yes, exactly. You can't miss it - there's a big sign.
+Translation: Bye, bye. - A Kinini IKIMENYETSO.
+Quality: 70% | Time: 477ms
+
+
+---
+✅ PASS | HARD | cultural
+Original: What's your favorite traditional food from your country?
+Translation: Ni ayahe mafunguro ukunda kurusha ayandi ku isi?
+Quality: 70% | Time: 415ms
+
+
+---
+✅ PASS | HARD | cultural
+Original: Probably ugali with vegetables. It's simple but very satisfying.
+Translation: Kotae wa ugoki dasu. Biroroshye ariko birashimishije cyane.
+Quality: 70% | Time: 350ms
+
+
+---
+✅ PASS | HARD | cultural
+Original: That sounds delicious! Is it difficult to make?
+Translation: Birasa nkaho biryoshye! Biragoye gukora?
+Quality: 70% | Time: 398ms
+
+
+---
+✅ PASS | HARD | cultural
+Original: Not at all! I could teach you sometime if you're interested.
+Translation: Nshobora kukwigisha rimwe na rimwe niba ubyifuza.
+Quality: 70% | Time: 816ms
+
+
+---
+❌ FAIL | REVERSE | reverse
+Original: Muraho
+Translation: how are you?
+Quality: 74% | Time: 421ms
+Expected: Hello
+
+---
+❌ FAIL | REVERSE | reverse
+Original: Murakoze cyane
+Translation: Thank you so much!
+Quality: 74% | Time: 781ms
+Expected: Thank you very much
+
+---
+✅ PASS | REVERSE | reverse
+Original: Mumeze mute?
+Translation: How are you?
+Quality: 70% | Time: 1240ms
+Expected: How are you?
+
+---
+✅ PASS | REVERSE | reverse
+Original: Ndagukunda
+Translation: i love you
+Quality: 60% | Time: 753ms
+Expected: I love you
+
+---
+❌ FAIL | REVERSE | reverse
+Original: Mfite ikibazo
+Translation: I've got a problem
+Quality: 70% | Time: 603ms
+Expected: I have a problem
+
+---
+✅ PASS | CHAIN | chain
+Original: Hello, how are you today?
+Translation: Muraho neza, uyu munsi muraho neza?
+Quality: 70% | Time: 402ms
+
+
+---
+✅ PASS | CHAIN | chain
+Original: I am very happy to meet you
+Translation: Ndishimye kukumenya
+Quality: 70% | Time: 404ms
+
+
+---
+✅ PASS | CHAIN | chain
+Original: The weather is beautiful today
+Translation: Muri iki gihe ikirere ni cyiza
+Quality: 70% | Time: 320ms
+
+
+---
+        

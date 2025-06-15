@@ -1,0 +1,389 @@
+
+KINYARWANDA TRANSLATION TEST REPORT
+===================================
+Generated: 6/15/2025, 4:53:48 AM
+
+SUMMARY STATISTICS
+------------------
+Total Tests: 50
+Passed: 50
+Failed: 0
+Success Rate: 100%
+Average Response Time: 140ms
+
+CATEGORY BREAKDOWN
+------------------
+BASIC_GREETINGS: 5/5 (100%)
+SIMPLE_WORDS: 5/5 (100%)
+INTRODUCTION: 4/4 (100%)
+SERVICE: 4/4 (100%)
+SOCIAL: 4/4 (100%)
+FAMILY: 4/4 (100%)
+PROFESSIONAL: 4/4 (100%)
+COMMERCE: 4/4 (100%)
+NAVIGATION: 4/4 (100%)
+CULTURAL: 4/4 (100%)
+REVERSE: 5/5 (100%)
+CHAIN: 3/3 (100%)
+
+FAILED TESTS ANALYSIS
+--------------------
+🎉 No failed tests! All translations passed.
+
+RECOMMENDATIONS
+---------------
+
+
+DETAILED RESULTS
+================
+✅ PASS | EASY | basic_greetings
+Original: Hello
+Translation: muraho
+Quality: 100% | Time: 24ms
+Expected: Muraho
+
+---
+✅ PASS | EASY | basic_greetings
+Original: Thank you
+Translation: murakoze
+Quality: 100% | Time: 11ms
+Expected: Murakoze
+
+---
+✅ PASS | EASY | basic_greetings
+Original: Good morning
+Translation: mwaramutse
+Quality: 100% | Time: 11ms
+Expected: Mwaramutse
+
+---
+✅ PASS | EASY | basic_greetings
+Original: How are you?
+Translation: mumeze mute?
+Quality: 100% | Time: 15ms
+Expected: Mumeze mute?
+
+---
+✅ PASS | EASY | basic_greetings
+Original: Goodbye
+Translation: murabeho
+Quality: 100% | Time: 11ms
+Expected: Murabeho
+
+---
+✅ PASS | EASY | simple_words
+Original: Water
+Translation: amazi
+Quality: 100% | Time: 11ms
+Expected: Amazi
+
+---
+✅ PASS | EASY | simple_words
+Original: Food
+Translation: ibiryo
+Quality: 100% | Time: 9ms
+Expected: Ibiryo
+
+---
+✅ PASS | EASY | simple_words
+Original: House
+Translation: inzu
+Quality: 100% | Time: 12ms
+Expected: Inzu
+
+---
+✅ PASS | EASY | simple_words
+Original: School
+Translation: ishuri
+Quality: 100% | Time: 14ms
+Expected: Ishuri
+
+---
+✅ PASS | EASY | simple_words
+Original: Friend
+Translation: inshuti
+Quality: 100% | Time: 10ms
+Expected: Inshuti
+
+---
+✅ PASS | MEDIUM | introduction
+Original: Hi there! I don't think we've met before.
+Translation: muraho
+Quality: 95% | Time: 12ms
+
+
+---
+✅ PASS | MEDIUM | introduction
+Original: Hello! You're right, I'm Sarah. Nice to meet you!
+Translation: muraho
+Quality: 95% | Time: 14ms
+
+
+---
+✅ PASS | MEDIUM | introduction
+Original: I'm David. Are you from around here?
+Translation: Njyewe- "None se ni wowe uturutse aha?
+Quality: 70% | Time: 1449ms
+
+
+---
+✅ PASS | MEDIUM | introduction
+Original: Actually, I just moved here last month from Canada.
+Translation: ukwezi
+Quality: 95% | Time: 13ms
+
+
+---
+✅ PASS | MEDIUM | service
+Original: Good morning! Could I get a large coffee with milk, please?
+Translation: mwaramutse
+Quality: 95% | Time: 9ms
+
+
+---
+✅ PASS | MEDIUM | service
+Original: Of course! Would you like sugar with that?
+Translation: Koko ni iru no wa suki na no?
+Quality: 70% | Time: 596ms
+
+
+---
+✅ PASS | MEDIUM | service
+Original: Just a little bit, thanks. How much will that be?
+Translation: murakoze
+Quality: 95% | Time: 11ms
+
+
+---
+✅ PASS | MEDIUM | service
+Original: That'll be $3.50. Will you be drinking it here or taking it to go?
+Translation: Igiciro cyazo ni $ 3.50. Urashaka kuyinywera hano cyangwa hano kuyinywera hano?
+Quality: 70% | Time: 499ms
+
+
+---
+✅ PASS | MEDIUM | social
+Original: Hey, what are you doing this weekend?
+Translation: muraho
+Quality: 95% | Time: 9ms
+
+
+---
+✅ PASS | MEDIUM | social
+Original: Nothing special planned yet. Why, do you have something in mind?
+Translation: muraho
+Quality: 95% | Time: 11ms
+
+
+---
+✅ PASS | MEDIUM | social
+Original: I was thinking we could go to that new restaurant downtown.
+Translation: muraho
+Quality: 95% | Time: 10ms
+
+
+---
+✅ PASS | MEDIUM | social
+Original: That sounds great! What time works for you?
+Translation: akazi
+Quality: 95% | Time: 9ms
+
+
+---
+✅ PASS | MEDIUM | family
+Original: Did you finish your homework already?
+Translation: inzu
+Quality: 95% | Time: 10ms
+
+
+---
+✅ PASS | MEDIUM | family
+Original: Almost done, Mom. I just have math left to do.
+Translation: Bye bye, mama, I just got math left to do.
+Quality: 70% | Time: 342ms
+
+
+---
+✅ PASS | MEDIUM | family
+Original: Do you need any help with it?
+Translation: Ukeneye ubufasha kuri iki kibazo?
+Quality: 70% | Time: 435ms
+
+
+---
+✅ PASS | MEDIUM | family
+Original: Maybe later if I get stuck on the hard problems.
+Translation: Birashoboka ko nyuma yaho nzaba ndi mu bibazo bikomeye.
+Quality: 70% | Time: 347ms
+
+
+---
+✅ PASS | HARD | professional
+Original: How's the presentation coming along?
+Translation: Comment se rendez-vous à Byakuya?
+Quality: 70% | Time: 577ms
+
+
+---
+✅ PASS | HARD | professional
+Original: Pretty well, but I'm still working on the final slides.
+Translation: akazi
+Quality: 95% | Time: 9ms
+
+
+---
+✅ PASS | HARD | professional
+Original: Do you need me to review anything before tomorrow's meeting?
+Translation: muraho
+Quality: 95% | Time: 8ms
+
+
+---
+✅ PASS | HARD | professional
+Original: That would be really helpful, thanks!
+Translation: murakoze
+Quality: 95% | Time: 11ms
+
+
+---
+✅ PASS | HARD | commerce
+Original: Excuse me, how much are these tomatoes per pound?
+Translation: mumbabarire
+Quality: 95% | Time: 9ms
+
+
+---
+✅ PASS | HARD | commerce
+Original: They're $2.50 per pound, but I can give you three pounds for $7.
+Translation: Ni amafaranga 200 ku kilo, ariko nshobora kuguha 3 ku kilo.
+Quality: 70% | Time: 379ms
+
+
+---
+✅ PASS | HARD | commerce
+Original: That's a good deal! Are they locally grown?
+Translation: Bye bye bonne deal! Baba se barakuze?
+Quality: 70% | Time: 411ms
+
+
+---
+✅ PASS | HARD | commerce
+Original: Yes, they're from my farm just outside the city.
+Translation: yego
+Quality: 95% | Time: 14ms
+
+
+---
+✅ PASS | HARD | navigation
+Original: Excuse me, could you help me find the nearest subway station?
+Translation: mumbabarire
+Quality: 95% | Time: 10ms
+
+
+---
+✅ PASS | HARD | navigation
+Original: Sure! Go straight down this street for two blocks, then turn left.
+Translation: muraho
+Quality: 95% | Time: 7ms
+
+
+---
+✅ PASS | HARD | navigation
+Original: Is it the blue line that goes to downtown?
+Translation: Harya ngo umuhanda wa kaburimbo uva mu mujyi ujya mu mujyi?
+Quality: 70% | Time: 386ms
+
+
+---
+✅ PASS | HARD | navigation
+Original: Yes, exactly. You can't miss it - there's a big sign.
+Translation: yego
+Quality: 95% | Time: 12ms
+
+
+---
+✅ PASS | HARD | cultural
+Original: What's your favorite traditional food from your country?
+Translation: ibiryo
+Quality: 95% | Time: 12ms
+
+
+---
+✅ PASS | HARD | cultural
+Original: Probably ugali with vegetables. It's simple but very satisfying.
+Translation: Kotae wa ugoki dasu. Biroroshye ariko birashimishije cyane.
+Quality: 70% | Time: 444ms
+
+
+---
+✅ PASS | HARD | cultural
+Original: That sounds delicious! Is it difficult to make?
+Translation: Birasa nkaho biryoshye! Biragoye gukora?
+Quality: 70% | Time: 403ms
+
+
+---
+✅ PASS | HARD | cultural
+Original: Not at all! I could teach you sometime if you're interested.
+Translation: oya
+Quality: 95% | Time: 12ms
+
+
+---
+✅ PASS | REVERSE | reverse
+Original: Muraho
+Translation: hello
+Quality: 100% | Time: 15ms
+Expected: Hello
+
+---
+✅ PASS | REVERSE | reverse
+Original: Murakoze cyane
+Translation: thank you very much
+Quality: 100% | Time: 14ms
+Expected: Thank you very much
+
+---
+✅ PASS | REVERSE | reverse
+Original: Mumeze mute?
+Translation: how are you?
+Quality: 100% | Time: 15ms
+Expected: How are you?
+
+---
+✅ PASS | REVERSE | reverse
+Original: Ndagukunda
+Translation: i love you
+Quality: 100% | Time: 10ms
+Expected: I love you
+
+---
+✅ PASS | REVERSE | reverse
+Original: Mfite ikibazo
+Translation: i have a problem
+Quality: 100% | Time: 12ms
+Expected: I have a problem
+
+---
+✅ PASS | CHAIN | chain
+Original: Hello, how are you today?
+Translation: muraho
+Quality: 95% | Time: 10ms
+
+
+---
+✅ PASS | CHAIN | chain
+Original: I am very happy to meet you
+Translation: Ndishimye kukumenya
+Quality: 70% | Time: 324ms
+
+
+---
+✅ PASS | CHAIN | chain
+Original: The weather is beautiful today
+Translation: umunsi
+Quality: 95% | Time: 10ms
+
+
+---
+        
